@@ -1,6 +1,20 @@
 <div class="min-h-screen flex items-center justify-center ml-4 mr-4">
 	<div class="text-center">
-		<h1 class="text-6xl">Welcome to SvelteKit</h1>
+
+    <div class="bg-primary-50-950">Light or Dark</div>
+
+    <div class="scheme-light">
+      <div class="bg-primary-50-950">Always Light Scheme</div>
+      <p class="text-amber-500 dark:text-amber-100">Always Light</p>
+    </div>
+    
+    <div class="scheme-dark">
+      <div class="bg-primary-50-950">Always Dark Scheme</div>
+      <p>Always Dark</p>
+    </div>
+
+
+		<h1 class="text-6xl font-bold text-red-800 dark:text-red-400">Welcome to SvelteKit</h1>
 		<p class="mt-4">Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 
     <form class="mt-8 space-y-6">
